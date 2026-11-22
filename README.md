@@ -28,6 +28,8 @@ This Streamlit application analyzes WhatsApp text exports locally and provides c
 Transformer features are opt-in and download model weights only when started. Conversation text is processed locally by these features; no external LLM API is called. Model comparison scores are shown only after evaluation on user-supplied annotations. BERTScore and supervised contrastive authorship results remain **Not evaluated yet**; provide human reference summaries/ratings for summary metrics.
 
 The context sentiment feature conditions a multilingual sentiment checkpoint on the current message and its preceding conversation window. It is an inference-time context wrapper, not a separately fine-tuned context-aware architecture. Event candidates are verbatim messages matched by a small cue-word list and require human review.
+## Live Demo
+https://whatsapp-chat-analyzer-ckl.streamlit.app/
 
 ## NLP and Research Workflow
 
